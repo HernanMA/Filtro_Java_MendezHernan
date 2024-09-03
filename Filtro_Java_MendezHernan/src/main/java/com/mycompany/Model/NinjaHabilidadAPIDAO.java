@@ -31,7 +31,7 @@ public class NinjaHabilidadAPIDAO {
                 rs.getInt("Id_Habilidad"),
                 rs.getInt("Id_Ninja"),
                 rs.getString("Nombre"),
-                rs.getString("Description")
+                rs.getString("DESCRIPCION")
                 );
                 Description.add(stats);
             }

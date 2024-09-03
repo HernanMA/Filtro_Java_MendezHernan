@@ -12,13 +12,13 @@ public class NinjaHabilidadAPI {
     private int Id_Habilidad;
     private int Id_Ninja;
     private String Nombre;
-    private String Description;
+    private String DESCRIPCION;
 
-    public NinjaHabilidadAPI(int Id_Habilidad, int Id_Ninja, String Nombre, String Description) {
+    public NinjaHabilidadAPI(int Id_Habilidad, int Id_Ninja, String Nombre, String DESCRIPCION) {
         this.Id_Habilidad = Id_Habilidad;
         this.Id_Ninja = Id_Ninja;
         this.Nombre = Nombre;
-        this.Description = Description;
+        this.DESCRIPCION = DESCRIPCION;
     }
 
     public int getId_Habilidad() {
@@ -45,12 +45,12 @@ public class NinjaHabilidadAPI {
         this.Nombre = Nombre;
     }
 
-    public String getDescription() {
-        return Description;
+    public String getDESCRIPCION() {
+        return DESCRIPCION;
     }
 
-    public void setDescription(String Description) {
-        this.Description = Description;
+    public void setDescription(String DESCRIPCION) {
+        this.DESCRIPCION = DESCRIPCION;
     }
     
     

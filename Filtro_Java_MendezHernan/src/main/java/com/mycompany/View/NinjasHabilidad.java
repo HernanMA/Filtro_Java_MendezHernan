@@ -35,7 +35,7 @@ public class NinjasHabilidad extends javax.swing.JFrame {
     Description.stream()
                 .map(stat -> new Object[]{
                     stat.getId_Ninja(),
-                    stat.getDescription(),
+                    stat.getDESCRIPCION(),
                     stat.getId_Habilidad(),
                     stat.getNombre()
                 })
