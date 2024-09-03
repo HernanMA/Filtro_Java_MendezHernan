@@ -4,7 +4,7 @@
 
 package com.mycompany.filtro_java_mendezhernan;
 
-import com.mycompany.View.Controller.Menu;
+import com.mycompany.View.Menu;
 
 /**
  *
